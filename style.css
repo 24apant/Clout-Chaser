@@ -1,0 +1,63 @@
+:root{
+  --primary-color:blue;
+  --background-color:white;
+  --clout:0;
+  
+}
+
+div{
+  outline:1px solid red;
+}
+
+body{
+  background-color: --background-color;
+}
+#header{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+#title{
+  font-size:100px;
+  color:var(--primary-color);
+}
+
+#count-div{
+  display:flex;
+  justify-content:center;
+  padding:50px;
+}
+#counter{
+  font-size:50px;
+}
+
+#button-div{
+  display:flex;
+  justify-content:center;
+}
+#clicker{
+  width:100px;
+  height:100px;
+  background-image: url("https://tr.rbxcdn.com/f36b9a7cd0aa404fb4af8e43de792183/420/420/Image/Png");
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.add-on-class{
+  display:flex;
+  justify-content:center;
+  padding:10px;
+  flex-direction:row;
+}
+
+.insta-bot-template{
+  display:none;
+  width:20px;
+  height:20px;
+}
+.insta-bot{
+/*   background:blue; */
+  background-size: cover;
+  background-image:url("https://i.imgur.com/sJzfZsL.jpg");
+}
